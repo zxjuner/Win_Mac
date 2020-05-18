@@ -1,0 +1,61 @@
+{
+    "title": "破晓连城",
+    "author": "Jun",
+    "description": "日常总结",
+    "language": "zh-hans",
+    "root": ".",
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-sharing",
+        "search-pro",
+        "chapter-fold",
+        "code",
+        "advanced-emoji",
+        "github-buttons",
+        "splitter",
+        "sharing-plus",
+        "pageview-count",
+        "todo"
+    ],
+    "pluginsConfig": {
+        "code": {
+            "copyBottons": false
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "twitter": false,
+            "weibo": true,
+         "all": [
+              "qq","linkedin","twitter", "google", 
+              "whatsapp"
+          ]
+        },
+        "github-buttons": {
+            "buttons": [
+                {
+                    "user": "zxjuner",
+                    "repo": "",
+                    "type": "star",
+                    "size": "small"
+                },
+                {
+                    "user": "zxjuner",
+                    "type": "follow",
+                    "size": "small",
+                    "width": "130",
+                    "count": "false"
+                }
+            ]
+        }
+    }
+
+}
