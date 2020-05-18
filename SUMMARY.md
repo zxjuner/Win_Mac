@@ -4,4 +4,5 @@
     - [1.常用配置](./mac/system_preferences.md)
     - [2.常用软件](./mac/software.md)
 * [Windows](README.md)
-
+    - [1.常用配置](./windows/system_preferences.md)
+    - [2.常用软件](./windows/software.md)
