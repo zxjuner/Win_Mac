@@ -44,7 +44,43 @@ brew cask cleanup           # 清除下载的缓存以及各种链接信息
 		* HTML-CSS-JS Prettify
 
 ### 4. ImageOptim
-* 图片压缩软件，提供 <a href="https://imageoptim.com/mac">Mac 版</a>和网页版，可用 `brew cask install imageoptim` 命令进行安装。
+* 图片压缩工具，提供 <a href="https://imageoptim.com/mac">Mac 版</a>和网页版，可用 `brew cask install imageoptim` 命令进行安装。
 
 ### 5. NetWorker Lite
 * 查看实时网速工具，打开 <a href="https://apps.apple.com/cn/app/networker-lite/id1228738830?mt=12">App Store</a> 下载即可。
+
+### 6. Aria2
+* 介绍：下载工具
+* 安装：`brew install aria2`
+* 配置：创建并修改配置文件于此路径 `~/.aria2/aria2.conf`
+```
+cd -
+mkdir .aria2
+cd .aria2
+touch aria2.conf
+```
+* aria2.conf 配置示例（参考自 <a href="http://aria2c.com/usage.html">http://aria2c.com/usage.html</a> ）：
+	- 第一行的 `XXX` 改为自己电脑用户名
+```
+dir=/Users/XXX/Downloads
+continue=true
+max-concurrent-downloads=5
+max-connection-per-server=5
+min-split-size=10M
+split=5
+disable-ipv6=true
+input-file=/usr/local/Cellar/aria2/aria2.session
+save-session=/usr/local/Cellar/aria2/aria2.session
+enable-rpc=true
+rpc-allow-origin-all=true
+rpc-listen-all=true
+listen-port=51413
+enable-dht=false
+enable-peer-exchange=false
+peer-id-prefix=-TR2770-
+user-agent=Transmission/2.77
+seed-ratio=0
+bt-seed-unverified=true
+bt-save-metadata=true
+```
+* 网页UI：<a href="http://binux.github.io/yaaw/demo/">http://binux.github.io/yaaw/demo/</a>，配置 `JSON-RPC Path` 为：`http://localhost:6800/jsonrpc`
