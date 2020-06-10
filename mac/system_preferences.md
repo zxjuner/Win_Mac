@@ -64,4 +64,6 @@
     * 找到「打开方式」选项，选择想指定的默认应用程序，单击「全部更改」按钮即可生效。
 + #### Finder 设置
     * 标题栏显示完整路径：
-        - 打开终端，输入：`defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES`，回车即可。
+        - 打开终端，输入以下命令回车即可：
+        
+        ```defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES```
