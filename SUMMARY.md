@@ -7,3 +7,5 @@
     - [1.常用配置](./windows/system_preferences.md)
     - [2.常用软件](./windows/software.md)
     - [3.常见故障及解决方法](./windows/troubleshooting.md)
+* [其他](README.md)
+    - [1.占位](./others/1.md)

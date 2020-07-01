@@ -15,3 +15,7 @@
 - <a href="./windows/system_preferences.md">Windows 系统设置</a>
 - <a href="./windows/software.md">Windows 常用软件</a>
 - <a href="./windows/troubleshooting.md">Windows 常见故障及解决方法</a>
+
+#### 其他
+
+- <a href="./others/1.md">其他占位</a>
