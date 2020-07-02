@@ -8,4 +8,4 @@
     - [2.常用软件](./windows/software.md)
     - [3.常见故障及解决方法](./windows/troubleshooting.md)
 * [其他](README.md)
-    - [1.占位](./others/1.md)
+    - [1.音乐&电影](./others/music_movies.md)
