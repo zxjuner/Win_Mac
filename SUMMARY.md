@@ -3,6 +3,7 @@
 * [Mac](README.md)
     - [1.常用配置](./mac/system_preferences.md)
     - [2.常用软件](./mac/software.md)
+    - [3.git 多用户配置](./mac/git.md)
 * [Windows](README.md)
     - [1.常用配置](./windows/system_preferences.md)
     - [2.常用软件](./windows/software.md)

@@ -84,3 +84,46 @@ bt-seed-unverified=true
 bt-save-metadata=true
 ```
 * 网页UI：<a href="http://binux.github.io/yaaw/demo/">http://binux.github.io/yaaw/demo/</a>，配置 `JSON-RPC Path` 为：`http://localhost:6800/jsonrpc`
+
+### 7. node 版本管理工具 nvm
+可使用 Curl 或 Wget 安装，Curl 和 Wget 的安装方法如下：
+```
+brew curl
+brew wget
+```
+Curl:
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
+Wget:
+```
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
+* 注意：
+如果出现 `command not found`，在配置文件中添加：
+```
+#for nvm command not found
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" #This loads nvm bash_completion
+```
+
+* 常用命令
+
+```
+nvm install stable      # 安装最新稳定版 node
+
+nvm install 8.9.4       # 安装 8.9.4 版本
+
+nvm use 8.9.4           # 切换至 8.9.4 版本
+
+nvm use node            # 切换至最新版本
+
+nvm alias default 8.9.4 #设置默认 node 版本为 8.9.4
+
+nvm current             # 查看当前版本
+
+nvm uninstall 8.9.4     # 卸载指定版本
+
+nvm ls                  # 查看已安装版本
+```
