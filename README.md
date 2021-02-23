@@ -18,6 +18,10 @@
 - <a href="./windows/software.md">Windows 常用软件</a>
 - <a href="./windows/troubleshooting.md">Windows 常见故障及解决方法</a>
 
+#### Gitbook
+
+- <a href="./gitbook/gitbook.md">Gitbook 简单配置</a>
+
 #### 其他
 
 - <a href="./others/music_movies.md">音乐&电影</a>
