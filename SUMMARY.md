@@ -10,6 +10,8 @@
     * [2.常用配置](./windows/system_preferences.md)
     * [3.常用软件](./windows/software.md)
     * [4.常见故障及解决方法](./windows/troubleshooting.md)
+* [Gitbook](./gitbook/README.md)
+    * [1.Gitbook 简单配置](./gitbook/gitbook.md)
 * [其他](./others/README.md)
     * [1.音乐&电影](./others/music_movies.md)
 
