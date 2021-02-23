@@ -13,24 +13,24 @@ Tool，如果已经存在，代表已经安装
 * 常用命令：
 ```
 brew install <packageName>      # 安装软件
-brew uninstall <packageName>    # 卸载软件
-brew search <packageName>       # 查询软件
+brew uninstall <packageName>    # 卸载软件 ( rm )
+brew search <packageName>       # 查询软件 ( -S )
 brew upgrade name               # 更新已安装软件
-brew list                       # 列出已安装软件
+brew list                       # 列出已安装软件 ( ls )
 brew update                     # 更新 brew
 brew home                       # 打开 brew 官网
 brew info <packageName>         # 显示软件信息
 brew deps                       # 显示包依赖
 brew cleanup                    # 清除下载缓存
 ```
-* Homebrew Cask 是 Homebrew 的扩展，借助它可以方便地在 macOS 上安装图形界面程序，brew cask的常用命令：
+* Homebrew Cask 是 Homebrew 的扩展，借助它可以方便地在 macOS 上安装图形界面程序，brew cask 的常用命令：
 ```
-brew cask install name      # 下载安装软件
-brew cask upgrade name      # 更新软件
-brew cask uninstall name    # 卸载软件
-brew cask info app          # 列出应用的信息
-brew cask list              # 列出本机安装过的软件列表
-brew cask cleanup           # 清除下载的缓存以及各种链接信息
+brew install --cask name      # 下载安装软件
+brew upgrade name      		  # 更新软件
+brew uninstall name    		  # 卸载软件
+brew info app          		  # 列出应用的信息
+brew list --cask              # 列出本机安装过的软件列表
+brew cleanup           		  # 清除下载的缓存以及各种链接信息
 ```
 
 ### 3. Sublime Text
@@ -44,7 +44,7 @@ brew cask cleanup           # 清除下载的缓存以及各种链接信息
 		* HTML-CSS-JS Prettify
 
 ### 4. ImageOptim
-* 图片压缩工具，提供 <a href="https://imageoptim.com/mac">Mac 版</a>和网页版，可用 `brew cask install imageoptim` 命令进行安装。
+* 图片压缩工具，提供 <a href="https://imageoptim.com/mac">Mac 版</a>和网页版，可用 `brew install --cask imageoptim` 命令进行安装。
 
 ### 5. NetWorker Lite
 * 查看实时网速工具，打开 <a href="https://apps.apple.com/cn/app/networker-lite/id1228738830?mt=12">App Store</a> 下载即可。
