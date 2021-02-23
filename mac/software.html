@@ -357,22 +357,22 @@ Tool&#xFF0C;&#x5982;&#x679C;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#xFF0C;&#x4EE3;&#x8
 <li>Homebrew &#x662F; Mac OS &#x4E0A;&#x7684;&#x8F6F;&#x4EF6;&#x5305;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#xFF0C;&#x80FD;&#x5728; Mac &#x4E2D;&#x65B9;&#x4FBF;&#x7684;&#x5B89;&#x88C5;&#x6216;&#x5378;&#x8F7D;&#x8F6F;&#x4EF6;&#x3002;</li>
 <li>Homebrew &#x5B98;&#x65B9;&#x7F51;&#x7AD9;&#xFF1A;<a href="https://brew.sh" target="_blank">https://brew.sh</a></li>
 <li>&#x5E38;&#x7528;&#x547D;&#x4EE4;&#xFF1A;<pre><code>brew install &lt;packageName&gt;      # &#x5B89;&#x88C5;&#x8F6F;&#x4EF6;
-brew uninstall &lt;packageName&gt;    # &#x5378;&#x8F7D;&#x8F6F;&#x4EF6;
-brew search &lt;packageName&gt;       # &#x67E5;&#x8BE2;&#x8F6F;&#x4EF6;
+brew uninstall &lt;packageName&gt;    # &#x5378;&#x8F7D;&#x8F6F;&#x4EF6; ( rm )
+brew search &lt;packageName&gt;       # &#x67E5;&#x8BE2;&#x8F6F;&#x4EF6; ( -S )
 brew upgrade name               # &#x66F4;&#x65B0;&#x5DF2;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;
-brew list                       # &#x5217;&#x51FA;&#x5DF2;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;
+brew list                       # &#x5217;&#x51FA;&#x5DF2;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6; ( ls )
 brew update                     # &#x66F4;&#x65B0; brew
 brew home                       # &#x6253;&#x5F00; brew &#x5B98;&#x7F51;
 brew info &lt;packageName&gt;         # &#x663E;&#x793A;&#x8F6F;&#x4EF6;&#x4FE1;&#x606F;
 brew deps                       # &#x663E;&#x793A;&#x5305;&#x4F9D;&#x8D56;
 brew cleanup                    # &#x6E05;&#x9664;&#x4E0B;&#x8F7D;&#x7F13;&#x5B58;
 </code></pre></li>
-<li>Homebrew Cask &#x662F; Homebrew &#x7684;&#x6269;&#x5C55;&#xFF0C;&#x501F;&#x52A9;&#x5B83;&#x53EF;&#x4EE5;&#x65B9;&#x4FBF;&#x5730;&#x5728; macOS &#x4E0A;&#x5B89;&#x88C5;&#x56FE;&#x5F62;&#x754C;&#x9762;&#x7A0B;&#x5E8F;&#xFF0C;brew cask&#x7684;&#x5E38;&#x7528;&#x547D;&#x4EE4;&#xFF1A;<pre><code>brew cask install name      # &#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;
-brew cask upgrade name      # &#x66F4;&#x65B0;&#x8F6F;&#x4EF6;
-brew cask uninstall name    # &#x5378;&#x8F7D;&#x8F6F;&#x4EF6;
-brew cask info app          # &#x5217;&#x51FA;&#x5E94;&#x7528;&#x7684;&#x4FE1;&#x606F;
-brew cask list              # &#x5217;&#x51FA;&#x672C;&#x673A;&#x5B89;&#x88C5;&#x8FC7;&#x7684;&#x8F6F;&#x4EF6;&#x5217;&#x8868;
-brew cask cleanup           # &#x6E05;&#x9664;&#x4E0B;&#x8F7D;&#x7684;&#x7F13;&#x5B58;&#x4EE5;&#x53CA;&#x5404;&#x79CD;&#x94FE;&#x63A5;&#x4FE1;&#x606F;
+<li>Homebrew Cask &#x662F; Homebrew &#x7684;&#x6269;&#x5C55;&#xFF0C;&#x501F;&#x52A9;&#x5B83;&#x53EF;&#x4EE5;&#x65B9;&#x4FBF;&#x5730;&#x5728; macOS &#x4E0A;&#x5B89;&#x88C5;&#x56FE;&#x5F62;&#x754C;&#x9762;&#x7A0B;&#x5E8F;&#xFF0C;brew cask &#x7684;&#x5E38;&#x7528;&#x547D;&#x4EE4;&#xFF1A;<pre><code>brew install --cask name      # &#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;
+brew upgrade name                # &#x66F4;&#x65B0;&#x8F6F;&#x4EF6;
+brew uninstall name              # &#x5378;&#x8F7D;&#x8F6F;&#x4EF6;
+brew info app                    # &#x5217;&#x51FA;&#x5E94;&#x7528;&#x7684;&#x4FE1;&#x606F;
+brew list --cask              # &#x5217;&#x51FA;&#x672C;&#x673A;&#x5B89;&#x88C5;&#x8FC7;&#x7684;&#x8F6F;&#x4EF6;&#x5217;&#x8868;
+brew cleanup                     # &#x6E05;&#x9664;&#x4E0B;&#x8F7D;&#x7684;&#x7F13;&#x5B58;&#x4EE5;&#x53CA;&#x5404;&#x79CD;&#x94FE;&#x63A5;&#x4FE1;&#x606F;
 </code></pre></li>
 </ul>
 <h3 id="3-sublime-text">3. Sublime Text</h3>
@@ -392,7 +392,7 @@ brew cask cleanup           # &#x6E05;&#x9664;&#x4E0B;&#x8F7D;&#x7684;&#x7F13;&#
 </ul>
 <h3 id="4-imageoptim">4. ImageOptim</h3>
 <ul>
-<li>&#x56FE;&#x7247;&#x538B;&#x7F29;&#x5DE5;&#x5177;&#xFF0C;&#x63D0;&#x4F9B; <a href="https://imageoptim.com/mac" target="_blank">Mac &#x7248;</a>&#x548C;&#x7F51;&#x9875;&#x7248;&#xFF0C;&#x53EF;&#x7528; <code>brew cask install imageoptim</code> &#x547D;&#x4EE4;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002;</li>
+<li>&#x56FE;&#x7247;&#x538B;&#x7F29;&#x5DE5;&#x5177;&#xFF0C;&#x63D0;&#x4F9B; <a href="https://imageoptim.com/mac" target="_blank">Mac &#x7248;</a>&#x548C;&#x7F51;&#x9875;&#x7248;&#xFF0C;&#x53EF;&#x7528; <code>brew install --cask imageoptim</code> &#x547D;&#x4EE4;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x3002;</li>
 </ul>
 <h3 id="5-networker-lite">5. NetWorker Lite</h3>
 <ul>
@@ -510,7 +510,7 @@ nvm ls                  # &#x67E5;&#x770B;&#x5DF2;&#x5B89;&#x88C5;&#x7248;&#x672
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"2.常用软件","level":"1.2.2","depth":2,"next":{"title":"3.git 多用户配置","level":"1.2.3","depth":2,"path":"mac/git.md","ref":"./mac/git.md","articles":[]},"previous":{"title":"1.常用配置","level":"1.2.1","depth":2,"path":"mac/system_preferences.md","ref":"./mac/system_preferences.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","search-pro","chapter-fold","code","advanced-emoji","github-buttons","splitter","sharing-plus","pageview-count","todo","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"livereload":{},"todo":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true,"copyBottons":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"github-buttons":{"buttons":[{"user":"zxjuner","repo":"","type":"star","size":"small"},{"user":"zxjuner","type":"follow","size":"small","width":"130","count":"false"}]},"advanced-emoji":{"embedEmojis":false},"sharing":{"qq":false,"all":["qq","linkedin","twitter","google","whatsapp"],"douban":false,"facebook":false,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Jun","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"破晓连城","language":"zh-hans","gitbook":"*","description":"日常总结"},"file":{"path":"mac/software.md","mtime":"2020-07-07T09:35:32.024Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-07-15T10:12:37.598Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"2.常用软件","level":"1.2.2","depth":2,"next":{"title":"3.git 多用户配置","level":"1.2.3","depth":2,"path":"mac/git.md","ref":"./mac/git.md","articles":[]},"previous":{"title":"1.常用配置","level":"1.2.1","depth":2,"path":"mac/system_preferences.md","ref":"./mac/system_preferences.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","search-pro","chapter-fold","code","advanced-emoji","github-buttons","splitter","sharing-plus","pageview-count","todo","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"chapter-fold":{},"livereload":{},"todo":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true,"copyBottons":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"github-buttons":{"buttons":[{"user":"zxjuner","repo":"","type":"star","size":"small"},{"user":"zxjuner","type":"follow","size":"small","width":"130","count":"false"}]},"advanced-emoji":{"embedEmojis":false},"sharing":{"qq":false,"all":["qq","linkedin","twitter","google","whatsapp"],"douban":false,"facebook":false,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Jun","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"破晓连城","language":"zh-hans","gitbook":"*","description":"日常总结"},"file":{"path":"mac/software.md","mtime":"2021-02-23T02:58:53.396Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-02-23T03:22:42.253Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
