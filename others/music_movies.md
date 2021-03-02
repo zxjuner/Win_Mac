@@ -1,22 +1,22 @@
 ## 音乐、电影、字幕下载收集
-常用的有 <a href="https://www.mvcat.com/">MVCAT</a>、<a href="http://pianyuan.la/">片源网</a>、<a href="http://www.zimuku.la/">字幕库</a>、<a href="https://www.sq688.com/">超高无损音乐</a>等，其他大部分为收集，未验证，可能有无效链接。
+常用的有 <a href="https://www.mvcat.com/">MVCAT</a>、<a href="http://pianyuan.la/">片源网</a>、<a href="http://www.zimuku.la/">字幕库</a>、<a href="http://music.y444.cn/">下歌吧</a>等，其他大部分为收集，未验证，可能有无效链接。
 ### 音乐
 <table>
     <tr>
-        <td><a href="https://www.sq688.com/">超高无损音乐</a></td>
+        <td><a href="http://music.y444.cn/">下歌吧</a></td>
         <td><a href="https://moresound.tk/music/">魔声音乐</a></td>
     </tr>
     <tr>
-        <td><a href="https://music.qugeek.com/page/music?v=6.0">墨灵音乐</a></td>
+        <td><a href="https://music.qugeek.com/page/music?v=6.0">墨灵音乐 (down)</a></td>
         <td><a href="http://www.51ape.com/">51ape</a></td>
     </tr>
     <tr>
         <td><a href="http://guozhivip.com/yinyue/">果汁音乐</a></td>
-         <td><a href="http://music.ifkdy.com/">疯狂音乐搜索</a></td>
+        <td><a href="http://music.ifkdy.com/">疯狂音乐搜索</a></td>
     </tr>
     <tr>
-        <td><a href="http://music.y444.cn/">下歌吧</a></td>
-         <td><a href="#"></a></td>
+        <td><a href="https://www.sq688.com/">超高无损音乐 (down)</a></td>
+        <td><a href="#"></a></td>
     </tr>
 </table>
 
