@@ -14,10 +14,6 @@
         <td><a href="http://guozhivip.com/yinyue/">果汁音乐</a></td>
         <td><a href="http://music.ifkdy.com/">疯狂音乐搜索</a></td>
     </tr>
-    <tr>
-        <td><a href="https://www.sq688.com/">超高无损音乐 (down)</a></td>
-        <td><a href="#"></a></td>
-    </tr>
 </table>
 
 ### 电影
