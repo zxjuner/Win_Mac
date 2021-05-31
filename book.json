@@ -18,8 +18,7 @@
         "github-buttons",
         "splitter",
         "sharing-plus",
-        "pageview-count",
-        "todo"
+        "pageview-count"
     ],
     "pluginsConfig": {
         "code": {
