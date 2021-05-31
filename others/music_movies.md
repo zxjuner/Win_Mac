@@ -1,5 +1,5 @@
 ## 音乐、电影、字幕下载收集
-常用的有 <a href="https://www.mvcat.com/">MVCAT</a>、<a href="http://pianyuan.la/">片源网</a>、<a href="http://www.zimuku.la/">字幕库</a>、<a href="http://music.y444.cn/">下歌吧</a>等，其他大部分为收集，未验证，可能有无效链接。
+常用的有 <a href="https://www.mvcat.com/">MVCAT</a>、<a href="http://pianyuan.la/">片源网</a>、<a href="http://www.zimuku.la/">字幕库</a>、<a href="http://music.y444.cn/">下歌吧</a>等，其他大部分为收集，未验证，可能有无效链接。如有侵权，联系删除。
 ### 音乐
 <table>
     <tr>
