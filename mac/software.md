@@ -127,3 +127,6 @@ nvm uninstall 8.9.4     # 卸载指定版本
 
 nvm ls                  # 查看已安装版本
 ```
+
+### 5. 解压工具：The Unarchiver
+* 打开 <a href="https://apps.apple.com/cn/app/the-unarchiver/id425424353?mt=12">App Store</a> 下载即可。
