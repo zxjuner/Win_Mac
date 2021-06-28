@@ -147,12 +147,11 @@ autojump (目录跳转，用法：`j folder`) 和 zsh-autosuggestions (命令提
 ```
 brew install autojump
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
 ```
-插件配置：打开 .zshrc 文件，找到 `plugins=`，添加 autojump 和 zsh-autosuggestions，如下：
+* 插件配置：打开 .zshrc 文件，找到 `plugins=`，添加 autojump 和 zsh-autosuggestions，如下：
 ```
 plugins=(
-  git autojump zsh-autosuggestions
+git autojump zsh-autosuggestions
 )
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 ```
