@@ -499,7 +499,29 @@ nvm current             # &#x67E5;&#x770B;&#x5F53;&#x524D;&#x7248;&#x672C;
 nvm uninstall 8.9.4     # &#x5378;&#x8F7D;&#x6307;&#x5B9A;&#x7248;&#x672C;
 
 nvm ls                  # &#x67E5;&#x770B;&#x5DF2;&#x5B89;&#x88C5;&#x7248;&#x672C;
-</code></pre>
+</code></pre><h3 id="5-&#x89E3;&#x538B;&#x5DE5;&#x5177;&#xFF1A;the-unarchiver">5. &#x89E3;&#x538B;&#x5DE5;&#x5177;&#xFF1A;The Unarchiver</h3>
+<ul>
+<li>&#x6253;&#x5F00; <a href="https://apps.apple.com/cn/app/the-unarchiver/id425424353?mt=12" target="_blank">App Store</a> &#x4E0B;&#x8F7D;&#x5373;&#x53EF;&#x3002;</li>
+</ul>
+<h3 id="6-iterm2--oh-my-zsh">6. iTerm2 + oh my zsh</h3>
+<ul>
+<li>&#x5B89;&#x88C5; iterm2; </li>
+<li>wget &#x5B89;&#x88C5; oh-my-zsh (&#x987B;&#x5148;&#x5B89;&#x88C5; wget)&#xFF0C;&#x5176;&#x4ED6;&#x53EF;<a href="https://ohmyz.sh/#install" target="_blank">&#x70B9;&#x6B64;</a>&#x53C2;&#x8003;&#x3002;<pre><code>brew install --cask iterm2
+sh -c &quot;$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)&quot;
+</code></pre></li>
+<li>&#x4E3B;&#x9898;: &#x6253;&#x5F00; .zshrc &#x9690;&#x85CF;&#x6587;&#x4EF6;&#xFF0C;&#x5C06; ZSH_THEME &#x6539;&#x6210;&#x60F3;&#x8981;&#x7684;&#x4E3B;&#x9898;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;<pre><code>ZSH_THEME=&quot;af-magic&quot;
+</code></pre></li>
+<li>&#x63D2;&#x4EF6;: 
+autojump (&#x76EE;&#x5F55;&#x8DF3;&#x8F6C;&#xFF0C;&#x7528;&#x6CD5;&#xFF1A;<code>j folder</code>) &#x548C; zsh-autosuggestions (&#x547D;&#x4EE4;&#x63D0;&#x793A;: <code>&#x2192;</code> &#x8865;&#x5168;)<pre><code>brew install autojump
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+</code></pre></li>
+<li>&#x63D2;&#x4EF6;&#x914D;&#x7F6E;&#xFF1A;&#x6253;&#x5F00; .zshrc &#x6587;&#x4EF6;&#xFF0C;&#x627E;&#x5230; <code>plugins=</code>&#xFF0C;&#x6DFB;&#x52A0; autojump &#x548C; zsh-autosuggestions&#xFF0C;&#x5982;&#x4E0B;&#xFF1A;<pre><code>plugins=(
+git autojump zsh-autosuggestions
+)
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] &amp;&amp; . $(brew --prefix)/etc/profile.d/autojump.sh
+</code></pre></li>
+</ul>
+
                                 
                                 </section>
                             
@@ -542,7 +564,7 @@ nvm ls                  # &#x67E5;&#x770B;&#x5DF2;&#x5B89;&#x88C5;&#x7248;&#x672
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"2.常用软件","level":"1.2.2","depth":2,"next":{"title":"3.git 多用户配置","level":"1.2.3","depth":2,"path":"mac/git.md","ref":"./mac/git.md","articles":[]},"previous":{"title":"1.常用配置","level":"1.2.1","depth":2,"path":"mac/system_preferences.md","ref":"./mac/system_preferences.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","search-pro","expandable-chapters","code","advanced-emoji","github-buttons","splitter","sharing-plus","pageview-count"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true,"copyBottons":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"github-buttons":{"buttons":[{"user":"zxjuner","repo":"","type":"star","size":"small"},{"user":"zxjuner","type":"follow","size":"small","width":"130","count":"false"}]},"advanced-emoji":{"embedEmojis":false},"sharing":{"qq":false,"all":["qq","linkedin","twitter","google","whatsapp"],"douban":false,"facebook":false,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Jun","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"破晓连城","language":"zh-hans","gitbook":"*","description":"日常总结"},"file":{"path":"mac/software.md","mtime":"2021-05-31T10:00:27.927Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-05-31T10:06:42.822Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"2.常用软件","level":"1.2.2","depth":2,"next":{"title":"3.git 多用户配置","level":"1.2.3","depth":2,"path":"mac/git.md","ref":"./mac/git.md","articles":[]},"previous":{"title":"1.常用配置","level":"1.2.1","depth":2,"path":"mac/system_preferences.md","ref":"./mac/system_preferences.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","search-pro","expandable-chapters","code","advanced-emoji","github-buttons","splitter","sharing-plus","pageview-count","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true,"copyBottons":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"pageview-count":{},"github-buttons":{"buttons":[{"user":"zxjuner","repo":"","type":"star","size":"small"},{"user":"zxjuner","type":"follow","size":"small","width":"130","count":"false"}]},"advanced-emoji":{"embedEmojis":false},"sharing":{"qq":false,"all":["qq","linkedin","twitter","google","whatsapp"],"douban":false,"facebook":false,"weibo":true,"twitter":false,"pocket":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"Jun","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"破晓连城","language":"zh-hans","gitbook":"*","description":"日常总结"},"file":{"path":"mac/software.md","mtime":"2021-06-28T02:56:59.765Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-06-28T02:53:15.245Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -581,6 +603,10 @@ nvm ls                  # &#x67E5;&#x770B;&#x5DF2;&#x5B89;&#x88C5;&#x7248;&#x672
     
         
         <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
         
     
         
