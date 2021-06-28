@@ -130,3 +130,29 @@ nvm ls                  # 查看已安装版本
 
 ### 5. 解压工具：The Unarchiver
 * 打开 <a href="https://apps.apple.com/cn/app/the-unarchiver/id425424353?mt=12">App Store</a> 下载即可。
+
+### 6. iTerm2 + oh my zsh
+* 安装 iterm2; 
+* wget 安装 oh-my-zsh (须先安装 wget)，其他可<a href="https://ohmyz.sh/#install">点此</a>参考。
+```
+brew install --cask iterm2
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+```
+* 主题: 打开 .zshrc 隐藏文件，将 ZSH_THEME 改成想要的主题，例如：
+```
+ZSH_THEME="af-magic"
+```
+* 插件: 
+autojump (目录跳转，用法：`j folder`) 和 zsh-autosuggestions (命令提示: `→` 补全)
+```
+brew install autojump
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+```
+插件配置：打开 .zshrc 文件，找到 `plugins=`，添加 autojump 和 zsh-autosuggestions，如下：
+```
+plugins=(
+  git autojump zsh-autosuggestions
+)
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+```
